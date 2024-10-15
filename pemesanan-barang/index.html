@@ -59,15 +59,15 @@
     <form action="./order.html" style="display: flex; flex-direction: column; gap: 16px; width: 100%">
       <div>
         <label for="title">Title Here: </label>
-        <input id="title" name="title" style="width: 100%" />
+        <input required id="title" name="title" style="width: 100%" />
       </div>
       <div>
         <label for="description">Description: </label>
-        <input id="description" name="description" style="width: 100%" />
+        <input required id="description" name="description" style="width: 100%" />
       </div>
       <div>
         <label for="account-number">Account Number: </label>
-        <input type="number" id="account-number" name="account-number" style="width: 100%" />
+        <input required type="number" id="account-number" name="account-number" style="width: 100%" />
       </div>
       <div>
         <label for="bank">Bank: </label>
@@ -79,11 +79,11 @@
       </div>
       <div>
         <label for="account-holder">Account Holder: </label>
-        <input id="account-holder" name="account-holder" style="width: 100%" />
+        <input required id="account-holder" name="account-holder" style="width: 100%" />
       </div>
       <div>
         <label for="transaction">Transaction: </label>
-        <input type="number" id="transaction" name="transaction" style="width: 100%" />
+        <input required type="number" id="transaction" name="transaction" style="width: 100%" />
         <p style="font-size: 12px; margin-top: 4px">
           * if the transaction is for 3 persons, choose 3 from the drop-down
           list
